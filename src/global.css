@@ -1,0 +1,15 @@
+html, :root, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ddd;
+}
+
+a {
+    font-weight: bold;
+}
