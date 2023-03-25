@@ -64,9 +64,9 @@
     {@const {src, title, tech, live, repo, text} = project}
     <div class=project
      >
-        <div class=imgContainer>
+        <a href={live} target=_blank class=imgContainer>
             <img {src} alt='screenshot of website on mobile device'>
-        </div>
+        </a >
         <div in:fade={{duration: 50}} class=projectText>
             <h2 class=titleLine>{title}</h2>
             <p class=techLine>{tech}</p>
@@ -118,6 +118,15 @@
         border: 1px solid #000;
         outline: 3px solid #ececec;
         width: 80%;
+        filter: brightness(.95);
+        transform: scale(.98);
+        transition: .5s;
+    }
+
+    .project img:hover {
+        filter: brightness(1.05);
+        transform: scale(1);
+        cursor: pointer;
     }
 
     .projectText {
@@ -156,10 +165,13 @@
     button {
         all: unset;
         width: 30px;
+        opacity: .5;
+        transition: .5s;
     }
 
     button:hover {
         cursor: pointer;
+        opacity: 1;
     }
 
     svg {

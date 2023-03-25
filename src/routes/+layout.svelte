@@ -25,9 +25,9 @@
 <div class=page>
     {#if visible}
     <nav in:fly={{duration: 500, y: -100}}>
-        <a href='/' class={!route ? 'current' : ''}>About</a>
-        <a href='/portfolio' class={route === 'portfolio' ? 'current' : ''}>Portfolio</a>
-        <a href='/resume' class={route === 'resume' ? 'current' : ''}>Resume</a>
+        <a href='/' class={!route ? 'current' : ''}>ABOUT</a>
+        <a href='/portfolio' class={route === 'portfolio' ? 'current' : ''}>PORTFOLIO</a>
+        <a href='/resume' class={route === 'resume' ? 'current' : ''}>RESUME</a>
     </nav>
     <main in:fade={{duration: 500}}>
         <slot />
@@ -66,6 +66,7 @@
 
     nav a {
         color: #ccc;
+        font-size: 1.5em;
     }
 
     .current {
@@ -92,6 +93,12 @@
         color: green;
         display: grid;
         place-content: center;
+        opacity: .5;
+        transition: .5s;
+    }
+
+    footer a:hover {
+        opacity: 1;
     }
 
 
