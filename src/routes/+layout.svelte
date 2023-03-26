@@ -18,8 +18,8 @@
 <svelte:head>
     <title>Colin B</title>
     <meta property='og:title' content='Colin B' />
-    <meta property='og:image' content='https://colinedwin.com/facebookShare.jpg' />
-    <meta property='og:image:alt' content='Smiling man holding corn dog' />
+    <meta property='og:image' content='https://colinedwin.com/facebookShare.png' />
+    <meta property='og:image:alt' content='Text reading howdy' />
     <meta property='og:description' content="Colin's Portfolio" />
     <meta property='og:type' content='website' />
     <meta property='og:url' content="https://colinedwin.com" />
