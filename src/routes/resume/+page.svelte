@@ -44,7 +44,7 @@
             <li><strong>Heroku</strong></li>
         </ul>
 </ul>
-<p style='text-align: center;'>You can find my full resume <a href='https://drive.google.com/file/d/1fmxthz63-iYAEdHYjbZmhPN5WnRJbEE6/view?usp=sharing' target=_blank>here</a></p>
+<p style='text-align: center;'>You can find my full resume <a href='https://drive.google.com/file/d/1agkX8kHBiaNLqfwiFbSwuSQSDJ9Zz1nv/view?usp=sharing' target=_blank>here</a></p>
 </section>
 {/if}
 <style>
