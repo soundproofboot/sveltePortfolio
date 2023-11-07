@@ -13,6 +13,14 @@
             text: 'Maintained and expanded Next.js app with SQLite backend. Currently rebuilding in SvelteKit with MongoDB. Volunteer since 5/22, contract since 10/22.'
         },
         {
+            src: '/conwaysGameOfLife.png',
+            title: `Conway's Game of Life`,
+            tech: 'SvelteKit && TypeScript',
+            live: 'https://conways-game-of-life-seven.vercel.app/',
+            repo: 'https://github.com/soundproofboot/conwaysGameOfLife',
+            text: 'Browser based implementation of Conway\'s Game of Life built with SvelteKit and TypeScript'
+        },
+        {
             src: '/park.png',
             title: 'National Park Spotter',
             tech: 'React, MongoDB, GraphQL',
