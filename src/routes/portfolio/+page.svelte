@@ -1,6 +1,6 @@
 <script lang=ts>
     import { onMount } from 'svelte';
-    import { fade, fly } from 'svelte/transition';
+    import { fade } from 'svelte/transition';
     let index = 0;
 
     let projects = [
