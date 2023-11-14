@@ -124,7 +124,6 @@
     .project img {
         border-radius: 1em;
         border: 1px solid #000;
-        outline: 3px solid #ececec;
         width: 80%;
         filter: brightness(.95);
         transform: scale(.98);
@@ -135,6 +134,7 @@
         filter: brightness(1.05);
         transform: scale(1);
         cursor: pointer;
+        outline: 3px solid #ececec;
     }
 
     .projectText {
@@ -197,10 +197,8 @@
         .project img {
             height: 100%;
             width: auto;
-            min-width: 330px;
-            min-height: 591px;
         }
-
+        
         .projectText {
             margin: 2em;
             width: 50%;

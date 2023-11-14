@@ -32,7 +32,7 @@
         <a href='/portfolio' class={route === 'portfolio' ? 'current' : ''}>PORTFOLIO</a>
         <a href='/resume' class={route === 'resume' ? 'current' : ''}>RESUME</a>
     </nav>
-    <main in:fade={{duration: 500}}>
+    <main >
         <slot />
     </main>
     {/if}
