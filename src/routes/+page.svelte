@@ -18,7 +18,7 @@
     </figure>
     <article>
         <h2>Dear interested party,</h2>
-        <p>I'm a full stack developer based in Minneapolis, MN. My past experience in both physical inventory and music has prepared me to combine creativity with attention to detail. I'm most interested in exploring the places where the arts meet technology.</p>
+        <p>I'm a full stack developer based in Madison, WI. My past experience in both physical inventory and music has prepared me to combine creativity with attention to detail. I'm most interested in exploring the places where the arts meet technology.</p>
         <p>Sincerely,</p>
         <strong>Colin Edwin Bares</strong>
     </article>

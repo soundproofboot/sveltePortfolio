@@ -18,7 +18,7 @@
 <svelte:head>
     <title>Colin B</title>
     <meta property='og:title' content='Colin B' />
-    <meta property='og:image' content='https://www.colinedwin.com/facebookShare.png' />
+    <meta property='og:image' content='https://www.colinedwin.com/facebookShare.webp' />
     <meta property='og:image:alt' content='Text reading howdy' />
     <meta property='og:description' content="Colin's Portfolio" />
     <meta property='og:type' content='website' />
@@ -32,7 +32,7 @@
         <a href='/portfolio' class={route === 'portfolio' ? 'current' : ''}>PORTFOLIO</a>
         <a href='/resume' class={route === 'resume' ? 'current' : ''}>RESUME</a>
     </nav>
-    <main in:fade={{duration: 500}}>
+    <main >
         <slot />
     </main>
     {/if}
