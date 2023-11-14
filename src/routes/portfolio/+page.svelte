@@ -5,7 +5,7 @@
 
     let projects = [
         {
-            src: '/greenNeighbor.png',
+            src: '/greenNeighbor.webp',
             title: 'Green Neighbor Challenge',
             tech: 'Next.js/SQLite && SvelteKit/MongoDB',
             live: 'https://www.greenneighborchallenge.org/',
@@ -13,7 +13,7 @@
             text: 'Maintained and expanded Next.js app with SQLite backend. Currently rebuilding in SvelteKit with MongoDB. Volunteer since 5/22, contract since 10/22.'
         },
         {
-            src: '/conwaysGameOfLife.png',
+            src: '/conwaysGameOfLife.webp',
             title: `Conway's Game of Life`,
             tech: 'SvelteKit && TypeScript',
             live: 'https://conways-game-of-life-seven.vercel.app/',
@@ -21,7 +21,7 @@
             text: 'Browser based implementation of Conway\'s Game of Life built with SvelteKit and TypeScript'
         },
         {
-            src: '/park.png',
+            src: '/park.webp',
             title: 'National Park Spotter',
             tech: 'React, MongoDB, GraphQL',
             live: 'https://pacific-brushlands-65513.herokuapp.com/',
@@ -29,7 +29,7 @@
             text: "Interactive U.S. Map showing all National Parks and details about them. User's can register, leave comments, and save a list of parks for future visits"
         },
         {
-            src: '/pixelArt.png',
+            src: '/pixelArt.webp',
             title: 'Pixel Art',
             tech: 'Svelte',
             live: 'https://pixel-art-sage.vercel.app/',
@@ -37,7 +37,7 @@
             text: 'Simple pixel art creator using native color input and touch events for mobile compatability'
         },
         {
-            src: 'fav-mates.png',
+            src: 'fav-mates.webp',
             title: 'Fav Mates',
             tech: 'Express, MySQL, Handlebars',
             live: 'https://lit-mountain-78827.herokuapp.com/',
@@ -45,7 +45,7 @@
             text: "Food delivery app allowing user's to place orders from mock restaurants."
         },
         {
-            src: 'popcorn.png',
+            src: 'popcorn.webp',
             title: 'Popcorn!',
             tech: 'fetchAPI, Bulma',
             live: 'https://crosenfrisk.github.io/Popcorn/',
