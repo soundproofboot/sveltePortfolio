@@ -197,6 +197,8 @@
         .project img {
             height: 100%;
             width: auto;
+            min-width: 330px;
+            min-height: 591px;
         }
 
         .projectText {
